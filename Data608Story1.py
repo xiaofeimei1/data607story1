@@ -11,7 +11,7 @@ plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 
 # Load the data
-file_path = r"C:\Users\xmei\Downloads\IIJA FUNDING AS OF MARCH 2023.xlsx"
+file_path = "IIJA FUNDING AS OF MARCH 2023.xlsx" #I saved a copy of excel file in the Git repository.
 df = pd.read_excel(file_path)
 
 print("Data loaded successfully!")
